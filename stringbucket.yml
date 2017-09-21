@@ -1,0 +1,7 @@
+files:
+  - source: sample(source).xml
+    translation: /translations/%two_letters_code%/sample(translations).xml
+    languages_mapping:
+      two_letters_code:
+        zh-CN: CH
+update_option : update_without_changes
